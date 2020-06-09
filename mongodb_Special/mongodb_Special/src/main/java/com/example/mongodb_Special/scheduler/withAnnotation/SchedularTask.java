@@ -41,4 +41,7 @@ public class SchedularTask  {
             System.out.println("Updated");
         }
     }
+
+    //    Query query1 = TextQuery.queryText(TextCriteria.forDefaultLanguage().matchingAny("search term").sortByScore().with(new PageRequest(pageNum, docCount, new Sort(new Order(Sort.Direction.DESC, "score"))));
+
 }
